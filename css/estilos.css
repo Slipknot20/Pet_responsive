@@ -309,6 +309,70 @@ footer {
     justify-content: center;
 }
 
+
+#img4:hover{
+    filter: invert(56%) sepia(45%) saturate(634%) hue-rotate(140deg) brightness(88%) contrast(90%);
+    transform: scale(2);
+    transition: all 0.5s ease-out;
+    transform: translateX(-5px);
+    border-radius: 70%;
+    width: 25px;
+}
+#img3:hover{
+    filter: invert(56%) sepia(45%) saturate(634%) hue-rotate(140deg) brightness(88%) contrast(90%);
+    transform: scale(2);
+    transition: all 0.5s ease-out;
+    transform: translateX(-5px);
+    border-radius: 70%;
+    width: 25px;
+}
+#img2:hover{
+    filter: invert(56%) sepia(45%) saturate(634%) hue-rotate(140deg) brightness(88%) contrast(90%);
+    transform: scale(2);
+    transition: all 0.5s ease-out;
+    transform: translateX(-5px);
+    border-radius: 70%;
+}
+#img1:hover{
+    filter: invert(56%) sepia(45%) saturate(634%) hue-rotate(140deg) brightness(88%) contrast(90%);
+    transform: scale(2);
+    transition: all 0.5s ease-out;
+    transform: translateX(-5px);
+    border-radius: 70%;
+    width: 25px;
+}
+.list>li:hover{
+    background: black;
+    border-radius: 15%;
+    transform: translateX(-5px);
+    color: #2E9FB0;
+}
+.come:hover{
+    transform: scale(1.5);
+    background: white;
+    color:  #F0A83E;
+    transition: all 0.5s ease-out;
+}
+
+.letter:hover{
+    color: #F0A83E;
+}
+
+.imgcom:hover{
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+input:focus{
+    background: teal;
+    color: white;
+}
+
+form>#Send:hover{
+    background: white;
+    color:  #F0A83E;
+}
+
 @media only screen and (max-width:480px) {
     main{
         display: flex;
